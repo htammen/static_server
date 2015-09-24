@@ -1,9 +1,9 @@
 # Node.js static server with Proxy functionality
-Todays web development is mostly strictly devided into frontend development and
+Todays web development is mostly strictly divided into frontend development and
 backend development. The frontend (HTML, JS, CSS) communicates with the backend
 via clearly defined (restful) APIs. The backend development is done on a Java server
 or any kind of other server runtime (PHP, .NET, SAP R/3, ...).
-When testion our frontend applications we face two problems.
+When testing our frontend applications we face two problems.
 * To test the complete functionality we need to run the application on a server
 that is accessible via http. The file protocol is not sufficient for all use cases
 * We need to call our backend functionality via XHR (Ajax). If our
@@ -50,5 +50,5 @@ or
 if you don't want to run on the standard port `8888`
 
 ## Credits
-I basically copied the static_server.js from Ryan Florence's [github repositiory](https://gist.github.com/ryanflorence/701407)  
+I basically copied the static_server.js from Ryan Florence's [github repositiory](https://gist.github.com/ryanflorence/701407) and enhanced it.  
 The http-proxy can be found at the [nodejitsu repositiory](https://github.com/nodejitsu/node-http-proxy)
