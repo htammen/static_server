@@ -1,0 +1,8 @@
+{
+  "name": "static_server",
+  "version": "0.1.0",
+  "dependencies": {
+    "http-proxy": "^1.11.2"
+  },
+  "private": true
+}
